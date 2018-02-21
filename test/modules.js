@@ -1,7 +1,7 @@
-const { InboundMqEventHandler } = require('../src/app/lib/inbound-event-handler');
+const { JWAuthToken } = require('../src/controller/jwt/jwt');
 
 module.exports = {
-  libs: {
-    InboundMqEventHandler,
+  controller: {
+    JWAuthToken
   },
-}
+};
